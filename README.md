@@ -12,3 +12,9 @@ These files contain the functions to format the GUI, tie the light displays to t
 
 # main.cpp
 This file creates and displays the GUI and returns the .exe file (which will run automatically)
+
+# mainwindow.ui
+This file contains the XML script to format the GUI. The XML script cannot be edited directly, but the file can be changed in the Design mode of Qt Creator. To add/remove traffic lights from the GUI, this must be edited. 
+
+# .dll files
+These files contain the .dlls needed to run the application without installing Qt Creator. However, installing Qt Creator is simple and allows for modification of this program.
